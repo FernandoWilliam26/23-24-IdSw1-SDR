@@ -20,7 +20,7 @@
 
 #### - Inicio Sesión
 
-Si el usuario ya esta registrado puede inicar sesión, si no podra registrarse.
+Si el usuario ya esta registrado puede iniciar sesión, si no podra registrarse.
 
 |                                               |                                                 |
 | --------------------------------------------- | ----------------------------------------------- |
