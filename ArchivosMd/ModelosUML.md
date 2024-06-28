@@ -7,11 +7,11 @@
   | Paso                                                                  |                         Detalle                         |
 | --------------------------------------------------------------------- | :-----------------------------------------------------: |
 | 1. Listamos las clases principales.                       | Gestor de horarios, Asignatura, Docente, Aula, Asignacion docente asignatura, Asignacion aula, Horario.
-| 2. Las representamos en un modelo de dominion inicial con sus atributos.                 |          ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/hugo.fresno/imagenes/modelosUML/Fraccionado/Diagrama%20de%20clases%20fraccionado.svg)           |
-| 3. gestionar las relaciones entre las diferentes clases.  |          ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/hugo.fresno/imagenes/modelosUML/Diagrama%20de%20Clases.svg)           |
+| 2. Las representamos en un modelo de dominion inicial con sus atributos.                 |          ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/modelosUML/Fraccionado/Diagrama%20de%20clases%20fraccionado.svg)           |
+| 3. gestionar las relaciones entre las diferentes clases.  |          ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/modelosUML/Diagrama%20de%20Clases.svg)           |
 
 
-- [Codigo PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/hugo.fresno/modelosUML/Diagrama%20de%20Clases.puml)
+- [Codigo PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/modelosUML/Diagrama%20de%20Clases.puml)
 
 
 
