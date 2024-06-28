@@ -186,25 +186,25 @@ Docente revisa asignaturas.
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20inicio%20de%20sesi%C3%B3n.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20Inicio%20de%20sesi%C3%B3n.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20inicio%20de%20sesi%C3%B3n.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20Inicio%20de%20sesi%C3%B3n.puml) |
 
 #### - Registrar Usuario
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20Registro%20Usuario.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20Registro%20usuario.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20Registro%20Usuario.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20Registro%20usuario.puml) |
 
 #### - Administrador de horarios
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20Diagrama%201.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20Diagrama%201.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20Diagrama%201.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20Diagrama%201.puml) |
 
 #### - Creación del horario
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20de%20creaci%C3%B3n%20de%20horario.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20de%20creaci%C3%B3n%20de%20horario.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20de%20creaci%C3%B3n%20de%20horario.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20de%20creaci%C3%B3n%20de%20horario.puml) |
 
 #### - Creación de horario de una clase
 
