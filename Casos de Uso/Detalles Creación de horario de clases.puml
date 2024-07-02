@@ -1,19 +1,19 @@
 @startuml
 
 skinparam state {
-  BackgroundColor #fff59d
-  BorderColor #0288d1
+  BackgroundColor #faf4b4
+  BorderColor #c90000
 }
 
 skinparam note {
-  BackgroundColor #b2dfdb
+  BackgroundColor #f5f5f5
 }
 
 skinparam linetype polyline
 
 title Caso de Uso Creación de Horario de Clases - TimeGuardian
 
-INICIO -[#blue]-> crear_horario 
+INICIO -[#c90000]-> crear_horario
 note on link
   **Profesor solicita:**
   - Crear nuevo horario de clases
@@ -23,29 +23,28 @@ state crear_horario {
   state "Seleccionar materias" as A
   state "Definir horarios" as B
   state "Confirmar horario" as C
-  
-  [*] -[#blue]-> A
-  A -[#blue]-> B
+
+  [*] -[#c90000]-> A
+  A -[#c90000]-> B
   note on link
       **Profesor debe elegir:**
       - Materias a impartir
       - Número de horas por materia
   end note
-  B -[#blue]-> C
+  B -[#c90000]-> C
   note on link
     **Profesor asigna:**
     - Horarios para cada materia
     - Aulas disponibles
   end note
-  C -[#red]-> A
+  C -[#green]-> [*]
   note on link
     [conflicto de horarios o aulas]
   end note
-  C -[#blue]-> [*]
 }
 
-crear_horario -[#blue]-> :mostrarHorarioFinal
+crear_horario -[#c90000]-> :mostrarHorarioFinal
 
-:mostrarHorarioFinal -[#blue]-> HORARIO_FINAL
+:mostrarHorarioFinal -[#c90000]-> HORARIO_FINAL
 
 @enduml
