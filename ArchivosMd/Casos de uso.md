@@ -210,7 +210,7 @@ Docente revisa asignaturas.
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20Creaci%C3%B3n%20de%20horario%20de%20clases.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20Creaci%C3%B3n%20de%20horario%20de%20clases.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/fernandowilliam/imagenes/Casos%20de%20Uso/Detalles%20Creaci%C3%B3n%20de%20horario%20de%20clases.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20Creaci%C3%B3n%20de%20horario%20de%20clases.puml) |
 
 #### - Detección de conflictos
 
