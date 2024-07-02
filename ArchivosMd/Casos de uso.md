@@ -301,4 +301,4 @@ Docente revisa asignaturas.
 
 |                                                    |                                                    |
 | -------------------------------------------------- | -------------------------------------------------- |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/hugo.fresno/imagenes/Casos%20de%20Uso/Diagrama%20de%20contexto.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/hugo.fresno/Casos%20de%20Uso/Diagrama%20de%20contexto.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Diagrama%20de%20contexto.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Diagrama%20de%20contexto.puml) |
