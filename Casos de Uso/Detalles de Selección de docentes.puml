@@ -1,19 +1,21 @@
 @startuml
 
 skinparam state {
-  BackgroundColor #fff59d
-  BorderColor #f57f17
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+  TextColor #757575
 }
 
 skinparam note {
-  BackgroundColor #b2dfdb
+  BackgroundColor #f5f5f5
+  TextColor #757575
 }
 
 skinparam linetype polyline
 
 title Caso de Uso Selección de Docentes para Asignaturas - TimeGuardian
 
-INICIO -[#orange]-> selección_para_asignatura
+INICIO -[#c90000]-> selección_para_asignatura
 note on link
   **Coordinador académico inicia:**
   - Asignación de docentes a asignaturas
@@ -25,18 +27,18 @@ state selección_para_asignatura {
   state "Asignar docentes a asignaturas" as C
   state "Confirmar asignaciones" as D
 
-  [*] -[#orange]-> A
-  A -[#orange]-> B
+  [*] -[#c90000]-> A
+  A -[#c90000]-> B
   note on link
       **Coordinador identifica:**
       - Asignaturas que requieren docentes
   end note
-  B -[#orange]-> C
+  B -[#c90000]-> C
   note on link
     **Coordinador evalúa:**
     - Experiencia y especialización de docentes
   end note
-  C -[#orange]-> D
+  C -[#c90000]-> D
   note on link
     **Coordinador asigna:**
     - Docentes a asignaturas específicas
@@ -47,8 +49,11 @@ state selección_para_asignatura {
   end note
 }
 
-selección_para_asignatura -[#orange]-> :mostrarAsignacionesFinalizadas
+selección_para_asignatura -[#c90000]-> :mostrarAsignacionesFinalizadas
 
-:mostrarAsignacionesFinalizadas -[#orange]-> ASIGNACIONES_COMPLETADAS
+:mostrarAsignacionesFinalizadas -[#c90000]-> ASIGNACIONES_COMPLETADAS
 
 @enduml
+
+
+
