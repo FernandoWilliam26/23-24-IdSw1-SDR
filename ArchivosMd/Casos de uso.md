@@ -263,7 +263,7 @@ Docente revisa asignaturas.
 #### - Selección docente
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20de%20Selecci%C3%B3n%20de%20docentes.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20de%20Selecci%C3%B3n%20de%20docentes.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20de%20Selecci%C3%B3n%20de%20docentes.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20de%20Selecci%C3%B3n%20de%20docentes.puml) |
 
 #### - Asignación docente asignatura
 |                                                                        |                                                                          |

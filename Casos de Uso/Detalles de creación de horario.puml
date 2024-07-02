@@ -1,19 +1,19 @@
 @startuml
 
 skinparam state {
-  BackgroundColor #fff9c4
-  BorderColor #d32f2f
+  BackgroundColor #faf4b4
+  BorderColor #c90000
 }
 
 skinparam note {
-  BackgroundColor #e0f7fa
+  BackgroundColor #f5f5f5
 }
 
 skinparam linetype polyline
 
 title Caso de Uso Creación de Horario General - TimeGuardian
 
-INICIO -[#red]-> crear_horario_general
+INICIO -[#c90000]-> crear_horario_general
 note on link
   **Administrador inicia:**
   - Elaboración del horario general
@@ -25,19 +25,19 @@ state crear_horario_general {
   state "Consultar con departamentos" as C
   state "Finalizar y publicar el horario" as D
 
-  [*] -[#red]-> A
-  A -[#red]-> B
+  [*] -[#c90000]-> A
+  A -[#c90000]-> B
   note on link
       **Administrador recopila:**
       - Disponibilidad de docentes y aulas
       - Necesidades de las asignaturas
   end note
-  B -[#red]-> C
+  B -[#c90000]-> C
   note on link
     **Administrador elabora:**
     - Primera versión del horario
   end note
-  C -[#red]-> D
+  C -[#c90000]-> D
   note on link
     **Administrador consulta:**
     - Ajustes y aprobaciones de los departamentos
@@ -48,8 +48,9 @@ state crear_horario_general {
   end note
 }
 
-crear_horario_general -[#red]-> :publicarHorario
+crear_horario_general -[#c90000]-> :publicarHorario
 
-:publicarHorario -[#red]-> HORARIO_GENERAL_PUBLICADO
+:publicarHorario -[#c90000]-> HORARIO_GENERAL_PUBLICADO
 
 @enduml
+
