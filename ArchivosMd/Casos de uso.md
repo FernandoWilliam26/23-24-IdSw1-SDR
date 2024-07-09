@@ -161,23 +161,6 @@ Verifica si los docentes estan asignados o todavía falta alguno.
 |                                                |                                                  |
 | ---------------------------------------------- | ------------------------------------------------ |
 | ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Verificar%20Docente.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Verificar%20Docente.puml) |
-
-#### - Programación de turnos
-
-Asigna los docentes a los turnos y comprueba si estan todos los turnos cubiertos o no.
-
-|                                            |                                              |
-| ------------------------------------------ | -------------------------------------------- |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Programacion%20de%20turnos.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Programacion%20de%20turnos.puml) |
-
-#### - Preparación de clases por parte del docente
-
-Docente revisa asignaturas.
-
-|                                                |                                                  |
-| ---------------------------------------------- | ------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Preparacion%20de%20clases%20por%20parte%20del%20docente.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Preparacion%20de%20clases%20por%20parte%20del%20docente.puml) |
-
 ---
 
 ## Detalles de los Casos de Uso
