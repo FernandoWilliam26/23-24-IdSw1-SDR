@@ -200,13 +200,13 @@ Verifica si los docentes estan asignados o todavía falta alguno.
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20DocenteCreado.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20DocenteCreado.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20DocenteCreado.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20DocenteCreado.puml) |
 
 #### - Asignación de docente
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20Asignacion%20de%20Docentes.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20de%20Asignacion%20de%20docentes%20a%20cursos.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20Asignacion%20de%20Docentes.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20Asignacion%20de%20Docentes.puml) |
 
 #### - Asignación Asignaturas
 
@@ -234,7 +234,7 @@ Verifica si los docentes estan asignados o todavía falta alguno.
 #### - Asignación docente asignatura
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20DocenteAsignatura.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20DocenteAsignatura.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20DocenteAsignatura.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20DocenteAsignatura.puml) |
 
 #### - Verificación asignaturas
 
@@ -246,7 +246,7 @@ Verifica si los docentes estan asignados o todavía falta alguno.
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20Verificar%20Docente.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20Verificar%20Docente.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20Verificar%20Docente.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20Verificar%20Docente.puml) |
 
 #### - Programación turnos
 
