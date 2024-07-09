@@ -58,6 +58,14 @@ Asigna las aulas al docente/asignatura.
 | ---------------------------------------------- | ------------------------------------------------ |
 | ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Asignacion%20de%20aulas.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Asignacion%20de%20aulas.puml) |
 
+#### - Configuración del Horario
+
+Configura el horario tras las asignaciones realizadas.
+
+|                                                |                                                  |
+| ---------------------------------------------- | ------------------------------------------------ |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Asignacion%20de%20aulas.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Asignacion%20de%20aulas.puml) |
+
 #### - Horario Finalizado
 
 |                                                |                                                  |
