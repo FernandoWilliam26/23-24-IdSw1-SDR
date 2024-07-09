@@ -106,24 +106,6 @@ Configura el horario tras las asignaciones realizadas.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/fernandowilliam/imagenes/Casos%20de%20Uso/Detalles%20Creaci%C3%B3n%20de%20horario%20de%20clases.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20Creaci%C3%B3n%20de%20horario%20de%20clases.puml) |
 
-#### - Detección de conflictos
-
-|                                                                        |                                                                          |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20Diagrama%202.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20Diagrama%202.puml) |
-
-#### - Identificación de cambios
-
-|                                                                        |                                                                          |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20de%20Diagrama%203.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20de%20Diagrama%203.puml) |
-
-#### - Guardar cambios
-
-|                                                                        |                                                                          |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20de%20Diagrama%204.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20de%20Diagrama%204.puml) |
-
 #### - Creación docente
 
 |                                                                        |                                                                          |
