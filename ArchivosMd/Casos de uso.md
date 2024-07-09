@@ -42,14 +42,6 @@ Crea el horario.
 | ----------------------------------------------------- | ------------------------------------------------------- |
 | ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/creacion%20del%20horario.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Creacion%20del%20horario.puml) |
 
-#### - Creación del horario de una clase
-
-El horario esta en proceso de creacion, creado o no.
-
-|                                                                  |                                                                    |
-| ---------------------------------------------------------------- | ------------------------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Creacion%20de%20un%20horario%20de%20clases.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Creacion%20de%20un%20horario%20de%20calses.puml) |
-
 #### - Detección de conflictos
 
 Si hay algun error al asignar aula, docente o grado, el sistema notificara con conflicto.
