@@ -1,44 +1,46 @@
 @startuml
 
 skinparam state {
-  BackgroundColor #e6ee9c
-  BorderColor #004d40
+  BackgroundColor #faf4b4
+  BorderColor #c90000
 }
 
 skinparam note {
-  BackgroundColor #ffe0b2
+  BackgroundColor #f5f5f5
 }
-
-skinparam linetype polyline
 
 title Caso de Uso - Creación de Asignatura
 
-[*] -[#green]-> inicio
-note right of inicio
-  **Coordinador académico inicia:**
+[*] --> inicio
+note on link
+  Coordinador académico inicia:
   - Proceso de creación de asignatura
 end note
 
-inicio -[#green]-> definir_parametros_asignatura
-note right of definir_parametros_asignatura
-  Definir parámetros de la asignatura
-end note
+state inicio {
+  [*] --> definir_parametros_asignatura
+  state "Definir parámetros de la asignatura" as definir_parametros_asignatura
 
-definir_parametros_asignatura -[#green]-> crear_plan_estudio
-note on link
-  **Coordinador define:**
-  - Contenidos y evaluaciones de la asignatura
-end note
+  definir_parametros_asignatura --> crear_plan_estudio
+  note right of definir_parametros_asignatura
+    Coordinador define:
+    - Contenidos y evaluaciones de la asignatura
+  end note
 
-crear_plan_estudio -[#green]-> confirmar_creación
-note on link
-  **Coordinador confirma:**
-  - Creación de la asignatura
-end note
+  state "Crear plan de estudio" as crear_plan_estudio
 
-confirmar_creación -[#green]-> [*]
-note right of confirmar_creación
-  Asignatura creada y lista para ser incluida en el programa académico
-end note
+  crear_plan_estudio --> confirmar_creacion
+  note right of crear_plan_estudio
+    Coordinador confirma:
+    - Creación de la asignatura
+  end note
+
+  state "Confirmar creación" as confirmar_creacion
+  confirmar_creacion --> [*]
+  note right of confirmar_creacion
+    Asignatura creada y lista para ser incluida en el programa académico
+  end note
+}
 
 @enduml
+
