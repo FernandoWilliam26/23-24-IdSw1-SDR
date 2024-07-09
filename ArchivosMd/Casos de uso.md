@@ -98,14 +98,6 @@ El docente puede estar no asignado, o se asigna a una asignatura.
 | ------------------------------------------------------ | -------------------------------------------------------- |
 | ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Asignacion%20de%20docente.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Asignacion%20de%20docente.puml) |
 
-#### - Asignación de asignatura
-
-Despues de asignar el docente a la asignatura, se queda asignada la asignatura al docente.
-
-|                                                                  |                                                                    |
-| ---------------------------------------------------------------- | ------------------------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Asignacion%20de%20asignaturas.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Asignacion%20de%20asignaturas.puml) |
-
 #### - Creación de aula 
 
 Se importan las aulas de una fuente externa.
@@ -146,14 +138,6 @@ Tras seleccionar un docente, se le asigna asignatura.
 | ---------------------------------------------------------------- | ------------------------------------------------------------------ |
 | ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DocenteAsignatura.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/DocenteAsignatura.puml) |
 
-#### - Verificar asignaciones
-
-Verifica las asignaciones realizadas.
-
-|                                                  |                                                    |
-| ------------------------------------------------ | -------------------------------------------------- |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Verificacion%20de%20asignaciones.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Verificacion%20de%20Asignaciones.puml) |
-
 #### - Verificar docente
 
 Verifica si los docentes estan asignados o todavía falta alguno.
@@ -161,23 +145,6 @@ Verifica si los docentes estan asignados o todavía falta alguno.
 |                                                |                                                  |
 | ---------------------------------------------- | ------------------------------------------------ |
 | ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Verificar%20Docente.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Verificar%20Docente.puml) |
-
-#### - Programación de turnos
-
-Asigna los docentes a los turnos y comprueba si estan todos los turnos cubiertos o no.
-
-|                                            |                                              |
-| ------------------------------------------ | -------------------------------------------- |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Programacion%20de%20turnos.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Programacion%20de%20turnos.puml) |
-
-#### - Preparación de clases por parte del docente
-
-Docente revisa asignaturas.
-
-|                                                |                                                  |
-| ---------------------------------------------- | ------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Preparacion%20de%20clases%20por%20parte%20del%20docente.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Preparacion%20de%20clases%20por%20parte%20del%20docente.puml) |
-
 ---
 
 ## Detalles de los Casos de Uso
