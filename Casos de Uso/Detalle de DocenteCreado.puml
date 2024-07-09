@@ -1,44 +1,49 @@
 @startuml
 
 skinparam state {
-  BackgroundColor #e6ee9c
-  BorderColor #004d40
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+  TextColor #757575
 }
 
 skinparam note {
-  BackgroundColor #ffe0b2
+  BackgroundColor #f5f5f5
+  TextColor #757575
 }
-
-skinparam linetype polyline
 
 title Caso de Uso - Creación de Perfil de Docente
 
-[*] -[#green]-> inicio
-note right of inicio
-  **Administrador del sistema inicia:**
+[*] --> inicio
+note on link
+  Administrador del sistema inicia:
   - Proceso de creación de perfil de docente
 end note
 
-inicio -[#green]-> ingresar_datos
-note right of ingresar_datos
-  Ingresar datos personales del docente
-end note
+state inicio {
+  [*] --> ingresar_datos
+  state "Ingresar datos personales del docente" as ingresar_datos
 
-ingresar_datos -[#green]-> verificar_información
-note on link
-  **Incluye:**
-  - Nombre
-  - Apellido
-end note
+  ingresar_datos --> verificar_informacion
+  note right of ingresar_datos
+    Incluye:
+    - Nombre
+    - Apellido
+  end note
 
-verificar_información -[#green]-> confirmar_creación
-note right of verificar_información
-  Verificar la precisión de la información
-end note
+  state "Verificar la precisión de la información" as verificar_informacion
 
-confirmar_creación -[#green]-> [*]
-note right of confirmar_creación
-  Perfil de docente creado exitosamente
-end note
+  verificar_informacion --> confirmar_creacion
+  note right of verificar_informacion
+    Verificar la precisión de la información
+  end note
+
+  state "Confirmar creación" as confirmar_creacion
+  confirmar_creacion --> [*]
+  note right of confirmar_creacion
+    Perfil de docente creado exitosamente
+  end note
+}
 
 @enduml
+
+
