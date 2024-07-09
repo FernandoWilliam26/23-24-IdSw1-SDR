@@ -140,6 +140,12 @@ Configura el horario tras las asignaciones realizadas.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20Verificar%20Docente.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20Verificar%20Docente.puml) |
 
+#### - Configuración Horario
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/fernandowilliam/imagenes/Casos%20de%20Uso/DetalleConfiguracionHorario.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/fernandowilliam/Casos%20de%20Uso/DetalleConfiguraci%C3%B3nHorario.puml) |
+
 ---
 
 ## Diagrama de Contexto
