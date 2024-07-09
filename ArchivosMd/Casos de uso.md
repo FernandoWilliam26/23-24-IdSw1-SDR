@@ -64,7 +64,7 @@ Configura el horario tras las asignaciones realizadas.
 
 |                                                |                                                  |
 | ---------------------------------------------- | ------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Asignacion%20de%20aulas.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Asignacion%20de%20aulas.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/ConfiguracionHorarioTrasAsignaciones.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/ConguracionHorarioTrasAsignaciones.puml) |
 
 #### - Horario Finalizado
 
