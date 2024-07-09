@@ -142,7 +142,7 @@ Verifica si los docentes estan asignados o todavía falta alguno.
 
 |                                                |                                                  |
 | ---------------------------------------------- | ------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Verificar%20Docente.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Verificar%20Docente.puml) |
+| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/fernandowilliam/imagenes/Casos%20de%20Uso/HorarioFinalizado.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/fernandowilliam/Casos%20de%20Uso/HorarioFinalizado.puml) |
 
 ---
 
