@@ -42,46 +42,6 @@ Crea el horario.
 | ----------------------------------------------------- | ------------------------------------------------------- |
 | ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/creacion%20del%20horario.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Creacion%20del%20horario.puml) |
 
-#### - Detección de conflictos
-
-Si hay algun error al asignar aula, docente o grado, el sistema notificara con conflicto.
-
-|                                                  |                                                    |
-| ------------------------------------------------ | -------------------------------------------------- |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Diagrama%202.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Diagrama%202.puml) |
-
-#### - Identificación de cambios
-
-Al realizar un cambio el sistema lo identifica y lo notifica al usuario.
-
-|                                                |                                                  |
-| ---------------------------------------------- | ------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Diagrama%203.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Diagrama%203.puml) |
-
-#### - Guardar cambios
-
-Al realizar los cambios, el sistema los guarda y actualiza la información.
-
-|                                            |                                              |
-| ------------------------------------------ | -------------------------------------------- |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Diagrama%204.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Diagrama%204.puml) |
-
-#### - Creación docente
-
-Se registrara el nombre y apellido del docente o se importara de una fuente externa.
-
-|                                                |                                                  |
-| ---------------------------------------------- | ------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DocenteCreado.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/DocenteCreado.puml) |
-
-#### - Creación asignatura
-
-Se crea la asignatura con el nombre y su respectivo grado o se importa de una fuente externa.
-
-|                                                       |                                                         |
-| ----------------------------------------------------- | ------------------------------------------------------- |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/AsignaturaCreada.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/AsignaturaCreada.puml) |
-
 #### - Asignación docente
 
 El docente puede estar no asignado, o se asigna a una asignatura.
@@ -90,14 +50,6 @@ El docente puede estar no asignado, o se asigna a una asignatura.
 | ------------------------------------------------------ | -------------------------------------------------------- |
 | ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Asignacion%20de%20docente.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Asignacion%20de%20docente.puml) |
 
-#### - Creación de aula 
-
-Se importan las aulas de una fuente externa.
-
-|                                                  |                                                    |
-| ------------------------------------------------ | -------------------------------------------------- |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/AulaCreada.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/AulaCreada.puml) |
-
 #### - Asignación de aulas
 
 Asigna las aulas al docente/asignatura.
@@ -105,38 +57,6 @@ Asigna las aulas al docente/asignatura.
 |                                                |                                                  |
 | ---------------------------------------------- | ------------------------------------------------ |
 | ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Asignacion%20de%20aulas.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Asignacion%20de%20aulas.puml) |
-
-#### - Asignación docente a curso
-
-Se identifican los docentes no asignados y se asignan hasta que esten todos asignados.
-
-|                                            |                                              |
-| ------------------------------------------ | -------------------------------------------- |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Asignacion%20de%20docentes%20a%20curso.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Asignacion%20de%20docentes%20a%20curso.puml) |
-
-#### - Selección de docentes
-
-Se registrara el nombre y apellido del docente o se importara de una fuente externa.
-
-|                                                |                                                  |
-| ---------------------------------------------- | ------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Seleccion%20de%20docentes.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Seleccion%20de%20docentes.puml) |
-
-#### - Asignación docente asignatura
-
-Tras seleccionar un docente, se le asigna asignatura.
-
-|                                                                  |                                                                    |
-| ---------------------------------------------------------------- | ------------------------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DocenteAsignatura.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/DocenteAsignatura.puml) |
-
-#### - Verificar docente
-
-Verifica si los docentes estan asignados o todavía falta alguno.
-
-|                                                |                                                  |
-| ---------------------------------------------- | ------------------------------------------------ |
-| ![](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Verificar%20Docente.svg) | [Código PUML](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Verificar%20Docente.puml) |
 
 #### - Horario Finalizado
 
