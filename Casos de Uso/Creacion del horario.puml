@@ -1,8 +1,8 @@
 @startuml
 
 skinparam usecase {
-  BackgroundColor #faf4b4
-  BorderColor #c90000
+  BackgroundColor #D3D3D3  
+  BorderColor #808080     
 }
 
 skinparam actor {
