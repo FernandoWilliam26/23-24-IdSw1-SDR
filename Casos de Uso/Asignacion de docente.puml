@@ -1,10 +1,20 @@
 @startuml
-actor "Gestor de Horarios" as A
 
-usecase "Asignacion de docentes" as UC1
-usecase "No asignado" as UC2
+skinparam usecase {
+  BackgroundColor #D3D3D3 
+  BorderColor #D3D3D3      
+}
 
-A --> UC1 : Asigna DocenteAsignatura
-A --> UC2 : Descarta DocenteAsignatura
+skinparam actor {
+  BackgroundColor #FFFFFF
+  BorderColor #000000
+}
+
+actor "Gestor de Horarios" as Gestor
+usecase "Asignación de docentes" as Asignacion
+usecase "No asignado" as NoAsignado
+
+Gestor -right-> Asignacion : Asigna DocenteAsignatura
+Gestor -right-> NoAsignado : Descarta DocenteAsignatura
 
 @enduml
