@@ -1,9 +1,18 @@
 @startuml
-actor "Gestor de Horarios" as A
-usecase "Asignación de Aulas" as UC1
-A --> UC1 : Asigna Aulas
-<<<<<<< HEAD
 
-=======
->>>>>>> fernando.william
+skinparam usecase {
+  BackgroundColor #D3D3D3  
+  BorderColor #D3D3D3     
+}
+
+skinparam actor {
+  BackgroundColor #FFFFFF
+  BorderColor #000000
+}
+
+actor "Gestor de Horarios" as Gestor
+usecase "Asignación de Aulas" as AsignacionAulas
+
+Gestor -right-> AsignacionAulas : Asigna Aulas
+
 @enduml
