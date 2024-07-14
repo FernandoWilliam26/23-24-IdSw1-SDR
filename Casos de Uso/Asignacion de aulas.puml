@@ -1,18 +1,11 @@
 @startuml
+title Caso de Uso - Asignar aula
+left to right direction
+actor Usuario as cust
 
-skinparam usecase {
-  BackgroundColor #D3D3D3  
-  BorderColor #D3D3D3     
+rectangle "Asignar aula" {
+    usecase "Configurar horario aula" as OP1
 }
 
-skinparam actor {
-  BackgroundColor #FFFFFF
-  BorderColor #000000
-}
-
-actor "Gestor de Horarios" as Gestor
-usecase "Asignación de Aulas" as AsignacionAulas
-
-Gestor -right-> AsignacionAulas : Asigna Aulas
-
+cust --> OP1
 @enduml
