@@ -1,5 +1,4 @@
 @startuml
-
 skinparam state {
   BackgroundColor #faf4b4
   BorderColor #c90000
@@ -11,46 +10,33 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Caso de Uso Creación de Horario General - TimeGuardian
+title Caso de Uso Crear un Nuevo Horario - TimeGuardian
 
-INICIO -[#c90000]-> crear_horario_general
+PÁGINA_PRINCIPAL -[#green]-> CrearNuevoHorario
 note on link
-  **Administrador inicia:**
-  - Elaboración del horario general
+  **Usuario selecciona:**
+  - Crear un nuevo horario
 end note
 
-state crear_horario_general {
-  state "Recopilar disponibilidad y necesidades" as A
-  state "Elaborar borrador del horario" as B
-  state "Consultar con departamentos" as C
-  state "Finalizar y publicar el horario" as D
-
-  [*] -[#c90000]-> A
-  A -[#c90000]-> B
+state CrearNuevoHorario {
+  state "Cargar Asignatura" as Cargar
+  state "Cargar Horario Vacio" as Ingresar
+  state "Guardar Horario" as Guardar
+  
+  [*] -[#green]-> Cargar
+  Cargar -[#green]-> Ingresar
   note on link
-      **Administrador recopila:**
-      - Disponibilidad de docentes y aulas
-      - Necesidades de las asignaturas
+    **Usuario ingresa:**
+    - Datos del nuevo horario
   end note
-  B -[#c90000]-> C
+  Ingresar -[#green]-> Guardar
   note on link
-    **Administrador elabora:**
-    - Primera versión del horario
+    **Sistema guarda:**
+    - El nuevo horario creado con asignaturas ya asignadas
   end note
-  C -[#c90000]-> D
-  note on link
-    **Administrador consulta:**
-    - Ajustes y aprobaciones de los departamentos
-  end note
-  D -[#green]-> [*]
-  note on link
-    [horario general completado]
-  end note
+  Guardar -[#green]-> [*]
 }
 
-crear_horario_general -[#c90000]-> :publicarHorario
-
-:publicarHorario -[#c90000]-> HORARIO_GENERAL_PUBLICADO
-
+CrearNuevoHorario -[#green]-> PAGINA_PRINCIPAL
 @enduml
 
