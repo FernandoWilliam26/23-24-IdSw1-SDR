@@ -10,11 +10,8 @@
 
 ### Actores
 
-- Asignaturas
-- Aulas
-- Grados
 - Usuario
-- Horario
+
 
 ### Casos de uso
 
